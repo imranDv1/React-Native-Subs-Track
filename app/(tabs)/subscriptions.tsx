@@ -3,12 +3,12 @@ import React from 'react'
 import {styled} from 'nativewind'
 import { SafeAreaView as RNSafeAreaView } from "react-native-safe-area-context";
 const SafeAreaView = styled(RNSafeAreaView)
-const Settings = () => {
+const Subscriptions = () => {
   return (
     <SafeAreaView className="flex-1 bg-background p-5">
-      <Text>Settings</Text>
+      <Text>Subscription</Text>
     </SafeAreaView>
   )
 }
 
-export default Settings
+export default Subscriptions
