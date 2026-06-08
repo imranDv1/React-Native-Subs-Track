@@ -3,6 +3,7 @@ import React from "react";
 import { Text, View } from "react-native";
 
 const SubscriptionDetails = () => {
+    
   const { id } = useLocalSearchParams<{ id: string }>();
 
   return (
